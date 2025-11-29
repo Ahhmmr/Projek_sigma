@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to right, #fff5f9, #f5babb, #568f87, #064232) ;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container {
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.menu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style-type: none;
+}
+li{
+    color: white;
+}
+li a{
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+.cover{
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    margin: 50px auto;
+}
+.judul{
+    width: 100px;
+    height: 100px;
+    padding-left: 600px;
+    padding-top: 20px;
+}
+.judul h1{
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 70px;
+}
+.ket{
+    width: 600px;
+    height: 200px;
+    padding-left: 600px;
+    padding-top: 120px;
+    color: white;
+    font-family:  'Poppins', sans-serif;
+}
